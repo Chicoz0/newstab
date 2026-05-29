@@ -1,0 +1,3 @@
+NVM -> Gerenciador de versões do Node.js
+Editorconfig -> Configuração de indentação individual
+Prettier (npm) -> Formatador de código automático
