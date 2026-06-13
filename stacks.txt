@@ -1,4 +1,16 @@
+# Gerenciadores de versão, linters, etc.
 NVM -> Gerenciador de versões do Node.js
 Editorconfig -> Configuração de indentação individual
 Prettier (npm) -> Formatador de código automático
-Jest (npm) -> Testes unitários
+
+# Testes
+Jest (npm) -> Testes
+
+# Banco de dados
+SGBD -> Sistemas de gerenciamento de banco de dados (PG, MySQL, etc.)
+Query -> não utilizado ORM (Object-relational mapping), poderia ser o Sequelize
+Migration -> versionamento de mudanças no banco de dados (usado o NodePgMigrate)
+
+# Isolamento
+- Virtual Machines -> não utilizadas pq não queremos SOs "guests" extras (ex. Vagrants = docker de VM)
+- Docker -> não replica um SO em cima do SO pra rodar a aplicação que queremos
